@@ -1,0 +1,49 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} ABout us {% endblock %}
+
+{% block content %}
+
+  <main class="about-us">
+         <h1>About us</h1>   <!--to jump from one route to another -->
+    <dd>Html is used to create the structureof your web page</dd>
+    <p><a href="{{home}}">profile</a></p>
+    <h1> <u> About us </u> </h1>
+    <button>Get started</button>
+    <h2>welcome to my wesite</h2>
+    <h3>welcome to my wesite</h3>
+    <img src="{{ url_for('static', filename="images/img.png") }}" alt="image" width="400">
+    <hr>
+
+    <p>i am a web deverloper</p>
+    <p>i am a <strong> <em> cyber </em> security </strong> student</p>
+    <!-- unorderd list -->
+    <ul>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+    </ul>
+<!-- orderd list -->
+    <ol>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+        <li>Python</li>
+    </ol>
+
+
+    <!--DEfinition list-->
+    <dl>
+        <dt>What is HTML</dt>
+        <dd>Html is used to create the structureof your web page</dd>
+
+        <dt>What is CSS</dt>
+        <dd>Html is used to create the structureof your web page</dd>
+    </dl>
+  </main>
+
+{% endblock %}
+

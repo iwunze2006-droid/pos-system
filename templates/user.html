@@ -1,0 +1,35 @@
+{% extends  "layouts/base.html" %}
+
+{% block title %} our contact is 0901234578
+{% endblock %}
+{% block content %}
+
+     <a href="/">home</a>
+    <a href="/about">about</a>
+    <a href="/contact_us">contact</a>
+    <a href="/profile">profile</a>
+    <h1>All users</h1>
+    {% if users: %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>phone number</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in users %}
+                    <tr>
+                        <td>{{ i['name'] }}</td>
+                        <td>{{ i['email'] }}</td>
+                        <td>{{ i['phone number'] }}</td>
+                    </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    {% else: %}
+        <p>No record yet</p>
+    {% endif %}
+
+{% endblock %}

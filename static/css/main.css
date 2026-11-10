@@ -1,0 +1,127 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing:border-box;
+}
+
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(32, 90, 214);
+}
+ul{
+    list-style: none;
+}
+header{
+    background-color: rgb(74, 9, 226);
+    min-height: 70px;
+    
+    
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.menu{
+    
+    display: flex;
+    gap: 10px;
+}
+
+.menu a{
+    color: rgb(107, 5, 5);
+}
+
+.spacing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    background-color: rgb(13, 77, 0);
+    color: rgb(25, 106, 177);
+
+}
+.prof{
+    color: rgba(0, 0, 0, 0.945);
+    background-color: rgba(250, 245, 245, 0.918);
+    padding: 12px 24px;
+    border-radius:10px ;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.719);
+    font-weight: 600;
+}
+.btn1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(213, 219, 215);
+    padding: 12px 24px;
+    border-radius:10px ;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 600;
+}
+.btn2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+    padding: 12px 24px;
+    border-radius:10px ;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 600;
+}
+.hero{
+    /* background-image: url(../images/pixel-img-5.jpg); */
+    background: linear-gradient(135deg, rgba(5, 0, 0, 0.349), rgb(14, 0, 0)), url(../images/pexels-img-13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+
+}
+html{
+    font-size: 16px;
+    
+}
+.spacing h1{
+    font-size: 3rem;
+}   
+.btn-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.below{
+    background: linear-gradient(135deg, rgba(5, 0, 0, 0.349), rgb(14, 0, 0)), url(../images/pexels-img-10.jpg);
+    /* background-image: url(../images/pexels-img-10.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(1, 56, 128);
+}
+
+.btn{
+    color: black;
+    background-color: #91ff0071;
+   
+}
+.btn-primary{
+    background-color: #36330aa4;
+}   

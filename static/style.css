@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: rgb(15, 9, 9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: rgb(9, 221, 115);
+    text-decoration: none;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+#link-tag{
+    color: rgba(44, 60, 206, 0.705);
+    text-decoration: solid !important;
+    /* font-size: 23px; */
+}
+
+#navbar{
+    background-color: black;
+}
+
+.menu{
+    width: 90%;
+    background-color: rgb(46, 199, 110);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+}
+.about-us{
+    background-color: blue;
+
+}
+
+.active{
+    color: rgb(255, 139, 7);
+}
+
+.list{
+    background-color: rgb(85, 6, 6);
+}
+
+.tag-list{
+    padding: 12px;
+}
